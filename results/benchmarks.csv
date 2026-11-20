@@ -1,0 +1,66 @@
+method,benchmark_set,implementation,problem_size_type,problem_size,threads,price,time_ms,speedup_vs_serial,absolute_price_error,gpu_event_ms,hardware,repetitions,notes
+CRR,CRR-OpenMP-session,sequential_cpu,tree_steps,100,1,6.082354,0.181,1.0,,,Google Colab CPU,5,Sequential baseline from the OpenMP benchmark output.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,100,1,6.082354,0.179,1.01,0,,Google Colab CPU,5,Measured OpenMP run.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,100,2,6.082354,0.175,1.04,0,,Google Colab CPU,5,Measured OpenMP run.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,100,4,6.082354,2.497,0.07,0,,Google Colab CPU,5,4- and 8-thread runs were oversubscribed relative to the reported 2 available OpenMP threads.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,100,8,6.082354,5.954,0.03,0,,Google Colab CPU,5,4- and 8-thread runs were oversubscribed relative to the reported 2 available OpenMP threads.
+CRR,CRR-OpenMP-session,sequential_cpu,tree_steps,500,1,6.08881,3.553,1.0,,,Google Colab CPU,5,Sequential baseline from the OpenMP benchmark output.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,500,1,6.08881,3.902,0.91,0,,Google Colab CPU,5,Measured OpenMP run.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,500,2,6.08881,2.989,1.19,0,,Google Colab CPU,5,Measured OpenMP run.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,500,4,6.08881,13.722,0.26,0,,Google Colab CPU,5,4- and 8-thread runs were oversubscribed relative to the reported 2 available OpenMP threads.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,500,8,6.08881,31.414,0.11,0,,Google Colab CPU,5,4- and 8-thread runs were oversubscribed relative to the reported 2 available OpenMP threads.
+CRR,CRR-OpenMP-session,sequential_cpu,tree_steps,1000,1,6.089595,13.467,1.0,,,Google Colab CPU,5,Sequential baseline from the OpenMP benchmark output.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,1000,1,6.089595,14.334,0.94,0,,Google Colab CPU,5,Measured OpenMP run.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,1000,2,6.089595,11.668,1.15,0,,Google Colab CPU,5,Measured OpenMP run.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,1000,4,6.089595,38.852,0.35,0,,Google Colab CPU,5,4- and 8-thread runs were oversubscribed relative to the reported 2 available OpenMP threads.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,1000,8,6.089595,70.743,0.19,0,,Google Colab CPU,5,4- and 8-thread runs were oversubscribed relative to the reported 2 available OpenMP threads.
+CRR,CRR-OpenMP-session,sequential_cpu,tree_steps,2000,1,6.08999,55.615,1.0,,,Google Colab CPU,5,Sequential baseline from the OpenMP benchmark output.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,2000,1,6.08999,55.024,1.01,0,,Google Colab CPU,5,Measured OpenMP run.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,2000,2,6.08999,45.946,1.21,0,,Google Colab CPU,5,Measured OpenMP run.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,2000,4,6.08999,91.825,0.61,0,,Google Colab CPU,5,4- and 8-thread runs were oversubscribed relative to the reported 2 available OpenMP threads.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,2000,8,6.08999,164.722,0.34,0,,Google Colab CPU,5,4- and 8-thread runs were oversubscribed relative to the reported 2 available OpenMP threads.
+CRR,CRR-OpenMP-session,sequential_cpu,tree_steps,5000,1,6.090219,543.176,1.0,,,Google Colab CPU,5,Sequential baseline from the OpenMP benchmark output.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,5000,1,6.090219,352.06,1.54,0,,Google Colab CPU,5,Measured OpenMP run.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,5000,2,6.090219,295.258,1.84,0,,Google Colab CPU,5,Measured OpenMP run.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,5000,4,6.090219,415.648,1.31,0,,Google Colab CPU,5,4- and 8-thread runs were oversubscribed relative to the reported 2 available OpenMP threads.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,5000,8,6.090219,639.89,0.85,0,,Google Colab CPU,5,4- and 8-thread runs were oversubscribed relative to the reported 2 available OpenMP threads.
+CRR,CRR-OpenMP-session,sequential_cpu,tree_steps,10000,1,6.090295,1418.753,1.0,,,Google Colab CPU,5,Sequential baseline from the OpenMP benchmark output.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,10000,1,6.090295,1615.82,0.88,0,,Google Colab CPU,5,Measured OpenMP run.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,10000,2,6.090295,1195.863,1.19,0,,Google Colab CPU,5,Measured OpenMP run.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,10000,4,6.090295,1509.874,0.94,0,,Google Colab CPU,5,4- and 8-thread runs were oversubscribed relative to the reported 2 available OpenMP threads.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,10000,8,6.090295,1883.444,0.75,0,,Google Colab CPU,5,4- and 8-thread runs were oversubscribed relative to the reported 2 available OpenMP threads.
+CRR,CRR-OpenMP-session,sequential_cpu,tree_steps,20000,1,6.090333,5999.383,1.0,,,Google Colab CPU,5,Sequential baseline from the OpenMP benchmark output.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,20000,1,6.090333,5751.22,1.04,0,,Google Colab CPU,5,Measured OpenMP run.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,20000,2,6.090333,4921.571,1.22,0,,Google Colab CPU,5,Measured OpenMP run.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,20000,4,6.090333,6118.391,0.98,0,,Google Colab CPU,5,4- and 8-thread runs were oversubscribed relative to the reported 2 available OpenMP threads.
+CRR,CRR-OpenMP-session,openmp_cpu,tree_steps,20000,8,6.090333,7331.937,0.82,0,,Google Colab CPU,5,4- and 8-thread runs were oversubscribed relative to the reported 2 available OpenMP threads.
+CRR,CRR-CUDA-session,sequential_cpu,tree_steps,1000,1,6.089595,19.113,1.0,,,Google Colab CPU + Tesla T4,5,CPU median from the CUDA comparison run.
+CRR,CRR-CUDA-session,cuda_gpu,tree_steps,1000,0,6.089595,17.548,1.09,0.0,17.263,"NVIDIA Tesla T4, compute capability 7.5",5,"GPU Total includes allocation, kernel launches/execution, result transfer and cleanup; GPU Event is the device event measurement."
+CRR,CRR-CUDA-session,sequential_cpu,tree_steps,2000,1,6.08999,70.849,1.0,,,Google Colab CPU + Tesla T4,5,CPU median from the CUDA comparison run.
+CRR,CRR-CUDA-session,cuda_gpu,tree_steps,2000,0,6.08999,32.103,2.21,0.0,31.814,"NVIDIA Tesla T4, compute capability 7.5",5,"GPU Total includes allocation, kernel launches/execution, result transfer and cleanup; GPU Event is the device event measurement."
+CRR,CRR-CUDA-session,sequential_cpu,tree_steps,5000,1,6.090219,348.839,1.0,,,Google Colab CPU + Tesla T4,5,CPU median from the CUDA comparison run.
+CRR,CRR-CUDA-session,cuda_gpu,tree_steps,5000,0,6.090219,53.545,6.51,2.66e-15,53.259,"NVIDIA Tesla T4, compute capability 7.5",5,"GPU Total includes allocation, kernel launches/execution, result transfer and cleanup; GPU Event is the device event measurement."
+CRR,CRR-CUDA-session,sequential_cpu,tree_steps,10000,1,6.090295,1195.197,1.0,,,Google Colab CPU + Tesla T4,5,CPU median from the CUDA comparison run.
+CRR,CRR-CUDA-session,cuda_gpu,tree_steps,10000,0,6.090295,106.762,11.19,8.88e-16,106.447,"NVIDIA Tesla T4, compute capability 7.5",5,"GPU Total includes allocation, kernel launches/execution, result transfer and cleanup; GPU Event is the device event measurement."
+CRR,CRR-CUDA-session,sequential_cpu,tree_steps,20000,1,6.090333,4951.448,1.0,,,Google Colab CPU + Tesla T4,5,CPU median from the CUDA comparison run.
+CRR,CRR-CUDA-session,cuda_gpu,tree_steps,20000,0,6.090333,286.583,17.28,2.66e-15,286.26,"NVIDIA Tesla T4, compute capability 7.5",5,"GPU Total includes allocation, kernel launches/execution, result transfer and cleanup; GPU Event is the device event measurement."
+LSM,LSM-OpenMP-session,sequential_cpu,mc_paths,10000,1,6.077179,13.309,1.0,,,Google Colab CPU,5,Sequential baseline from the OpenMP benchmark output.
+LSM,LSM-OpenMP-session,openmp_cpu,mc_paths,10000,1,6.077179,15.048,0.88,0.0,,Google Colab CPU; 2 OpenMP threads reported,5,OpenMP result from the supplied benchmark output.
+LSM,LSM-OpenMP-session,openmp_cpu,mc_paths,10000,2,6.077179,10.714,1.24,1.51e-14,,Google Colab CPU; 2 OpenMP threads reported,5,OpenMP result from the supplied benchmark output.
+LSM,LSM-OpenMP-session,sequential_cpu,mc_paths,50000,1,6.032697,83.282,1.0,,,Google Colab CPU,5,Sequential baseline from the OpenMP benchmark output.
+LSM,LSM-OpenMP-session,openmp_cpu,mc_paths,50000,1,6.032697,94.412,0.88,0.0,,Google Colab CPU; 2 OpenMP threads reported,5,OpenMP result from the supplied benchmark output.
+LSM,LSM-OpenMP-session,openmp_cpu,mc_paths,50000,2,6.032697,71.815,1.16,1.865e-14,,Google Colab CPU; 2 OpenMP threads reported,5,OpenMP result from the supplied benchmark output.
+LSM,LSM-OpenMP-session,sequential_cpu,mc_paths,100000,1,6.053391,182.176,1.0,,,Google Colab CPU,5,Sequential baseline from the OpenMP benchmark output.
+LSM,LSM-OpenMP-session,openmp_cpu,mc_paths,100000,1,6.053391,261.001,0.7,0.0,,Google Colab CPU; 2 OpenMP threads reported,5,OpenMP result from the supplied benchmark output.
+LSM,LSM-OpenMP-session,openmp_cpu,mc_paths,100000,2,6.053391,266.039,0.68,7.994e-14,,Google Colab CPU; 2 OpenMP threads reported,5,OpenMP result from the supplied benchmark output.
+LSM,LSM-OpenMP-session,sequential_cpu,mc_paths,500000,1,6.054775,1171.957,1.0,,,Google Colab CPU,5,Sequential baseline from the OpenMP benchmark output.
+LSM,LSM-OpenMP-session,openmp_cpu,mc_paths,500000,1,6.054775,1331.716,0.88,0.0,,Google Colab CPU; 2 OpenMP threads reported,5,OpenMP result from the supplied benchmark output.
+LSM,LSM-OpenMP-session,openmp_cpu,mc_paths,500000,2,6.054775,886.506,1.32,1.066e-14,,Google Colab CPU; 2 OpenMP threads reported,5,OpenMP result from the supplied benchmark output.
+LSM,LSM-CUDA-session,sequential_cpu,mc_paths,10000,1,6.077179,20.894,1.0,,,Google Colab CPU + Tesla T4,5,CPU median from the CUDA comparison run; path generation excluded from valuation timing.
+LSM,LSM-CUDA-session,cuda_gpu,mc_paths,10000,0,6.077179,7.728,2.7,2.576e-14,,"NVIDIA Tesla T4, compute capability 7.5",5,"GPU Total includes allocations, host-to-device path transfer, kernels, result transfer and cleanup; path generation excluded."
+LSM,LSM-CUDA-session,sequential_cpu,mc_paths,50000,1,6.032697,131.456,1.0,,,Google Colab CPU + Tesla T4,5,CPU median from the CUDA comparison run; path generation excluded from valuation timing.
+LSM,LSM-CUDA-session,cuda_gpu,mc_paths,50000,0,6.032697,31.654,4.15,2.931e-14,,"NVIDIA Tesla T4, compute capability 7.5",5,"GPU Total includes allocations, host-to-device path transfer, kernels, result transfer and cleanup; path generation excluded."
+LSM,LSM-CUDA-session,sequential_cpu,mc_paths,100000,1,6.053391,212.567,1.0,,,Google Colab CPU + Tesla T4,5,CPU median from the CUDA comparison run; path generation excluded from valuation timing.
+LSM,LSM-CUDA-session,cuda_gpu,mc_paths,100000,0,6.053391,42.811,4.97,2.043e-14,,"NVIDIA Tesla T4, compute capability 7.5",5,"GPU Total includes allocations, host-to-device path transfer, kernels, result transfer and cleanup; path generation excluded."
+LSM,LSM-CUDA-session,sequential_cpu,mc_paths,500000,1,6.054775,1413.36,1.0,,,Google Colab CPU + Tesla T4,5,CPU median from the CUDA comparison run; path generation excluded from valuation timing.
+LSM,LSM-CUDA-session,cuda_gpu,mc_paths,500000,0,6.054775,201.288,7.02,1.332e-14,,"NVIDIA Tesla T4, compute capability 7.5",5,"GPU Total includes allocations, host-to-device path transfer, kernels, result transfer and cleanup; path generation excluded."
